@@ -8,7 +8,7 @@ def test_exception():
         logging.info("We are dividing 1 by zero.")
         x=13/0
     except Exception as e:
-        raise SensorException(e,sys) 
+        raise SensorException(e,sys)
 
 if __name__ == '__main__':
     try:

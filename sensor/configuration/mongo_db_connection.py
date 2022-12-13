@@ -10,7 +10,7 @@ class MongoDBClient:
         try:
             if MongoDBClient.client is None:
                 #mongo_db_url = os.getenv
-                mongo_db_url  = "mongodb+srv://sukruth:Sukruth97@cluster0.yd8mlom.mongodb.net/?retryWrites=true&w=majority"
+                mongo_db_url  = "mongodb+srv://sukruth:Asdfghjkl97@cluster0.yd8mlom.mongodb.net/?retryWrites=true&w=majority"
                 MongoDBClient.client = pymongo.MongoClient(mongo_db_url, tlsCAFile=ca)
             self.client = MongoDBClient.client
             self.database = self.client[database_name]

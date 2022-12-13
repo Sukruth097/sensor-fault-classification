@@ -6,7 +6,7 @@ artifact
 .vscode
 # C extensions
 *.so
-
+saved_models/*
 # Distribution / packaging
 .Python
 build/

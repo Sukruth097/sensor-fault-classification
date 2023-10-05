@@ -63,4 +63,4 @@ AWS_ECR_LOGIN_URI=579404377387.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME=sensor-pipeline
 
-MONGO_DB_URL=mongodb+srv://sukruth:Asdfghjkl9712@cluster0.yd8mlom.mongodb.net/?retryWrites=true&w=majority
+MONGO_DB_URL=mongodb+srv://sukruth:<password>@cluster0.yd8mlom.mongodb.net/?retryWrites=true&w=majority

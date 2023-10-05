@@ -29,7 +29,7 @@
 	bucket name: scania-sensor-pipeline
 	
 4. ECR repo to store/save docker image
-	566373416292.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault
+	<>.dkr.ecr.ap-south-1.amazonaws.com/sensor-fault
 	
 5. EC2 machine  Ubuntu  Created
 
@@ -59,7 +59,7 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION=ap-south-1
 
-AWS_ECR_LOGIN_URI=579404377387.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI=<>.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME=sensor-pipeline
 
